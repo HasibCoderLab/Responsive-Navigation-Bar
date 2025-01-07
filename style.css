@@ -1,0 +1,30 @@
+body{
+
+text-align: center;
+}
+   nav {
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        gap:10px;
+        padding: 10px;
+         box-sizing: 0px 0px 10px rgba(0,0,0,0,0,2); 
+        /* box-shadow: 10px 5px 30px green; */
+        width: 200px;
+        border-radius: 5px;
+       
+        }
+
+
+
+        a{
+            font-weight: bold;
+            padding: 10px;
+            border-radius: 5px;
+
+        }
+
+        a:hover{
+            background-color: red;
+            color: white;
+        }
